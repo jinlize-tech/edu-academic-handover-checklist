@@ -1,0 +1,24 @@
+{
+  "number": 55,
+  "product_id": "JLZ-EDU-SK-045",
+  "chinese_name": "教务交接清单",
+  "english_name": "Academic Handover Checklist",
+  "repository_name": "edu-academic-handover-checklist",
+  "product_type": "Skill",
+  "category": "04 教务运营中心",
+  "version": "1.0.0",
+  "status": "PACKAGE_READY",
+  "workbuddy_validation": "NOT_VERIFIED",
+  "license": "Apache-2.0",
+  "baseline_tag": "education-product-baseline-v1.0.0",
+  "package_path": "dist/edu-academic-handover-checklist-v1.0.0.zip",
+  "calculator": false,
+  "core_input": "交接岗位、在办事项、班级/学生概况、资料位置、风险和截止时间",
+  "main_output": "交接清单、责任人、状态、风险、验收签名和缺失资料表",
+  "package_entries": [
+    "edu-academic-handover-checklist/SKILL.md",
+    "edu-academic-handover-checklist/references/DOMAIN_GUIDE.md",
+    "edu-academic-handover-checklist/references/EXAMPLES.md",
+    "edu-academic-handover-checklist/templates/OUTPUT_TEMPLATE.md"
+  ]
+}
