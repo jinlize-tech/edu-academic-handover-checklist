@@ -6,19 +6,38 @@
   "repository_name": "edu-academic-handover-checklist",
   "product_type": "Skill",
   "category": "04 教务运营中心",
-  "version": "1.0.0",
-  "status": "PACKAGE_READY",
-  "workbuddy_validation": "NOT_VERIFIED",
+  "version": "1.0.1",
+  "previous_version": "1.0.0",
+  "g5_status": "G5_STRENGTHENED",
+  "status": "G9_PRE_RELEASE_ACCEPTED",
+  "package_state": "GITHUB_PACKAGE_PRE_RELEASE_READY",
+  "runtime_status": "NOT_RUNTIME_VERIFIED",
+  "workbuddy_validation": "WORKBUDDY_VALIDATION_NOT_IN_SCOPE",
   "license": "Apache-2.0",
   "baseline_tag": "education-product-baseline-v1.0.0",
-  "package_path": "dist/edu-academic-handover-checklist-v1.0.0.zip",
+  "baseline_commit": "dca6f30b5718e14eeae14f024f57f3244c522d58",
+  "package_path": "dist/edu-academic-handover-checklist-v1.0.1.zip",
+  "previous_package_path": "dist/edu-academic-handover-checklist-v1.0.0.zip",
+  "previous_package_sha256": "83329DC4F794EBCDBC64A2D4EEBD1B13F65A06E346E1D762C5FC2C9491E810B6",
   "calculator": false,
   "core_input": "交接岗位、在办事项、班级/学生概况、资料位置、风险和截止时间",
   "main_output": "交接清单、责任人、状态、风险、验收签名和缺失资料表",
+  "main_output_fields": [
+    "交接清单",
+    "责任人",
+    "状态",
+    "风险",
+    "验收签名和缺失资料表"
+  ],
   "package_entries": [
     "edu-academic-handover-checklist/SKILL.md",
     "edu-academic-handover-checklist/references/DOMAIN_GUIDE.md",
     "edu-academic-handover-checklist/references/EXAMPLES.md",
-    "edu-academic-handover-checklist/templates/OUTPUT_TEMPLATE.md"
+    "edu-academic-handover-checklist/templates/OUTPUT_TEMPLATE.md",
+    "edu-academic-handover-checklist/README.md",
+    "edu-academic-handover-checklist/USAGE.md",
+    "edu-academic-handover-checklist/LICENSE",
+    "edu-academic-handover-checklist/THIRD_PARTY_NOTICES.md",
+    "edu-academic-handover-checklist/scripts/validate_input.js"
   ]
 }
