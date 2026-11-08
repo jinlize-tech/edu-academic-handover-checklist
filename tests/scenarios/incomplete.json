@@ -1,0 +1,11 @@
+{
+  "scenario_name": "incomplete",
+  "business_context": "用户在教务交接清单任务开始阶段只提供了少量资料。",
+  "inputs": {
+    "交接岗位": "标准合成场景｜已确认岗位与职责；具体人员使用角色编号T01、C01（合成编号）",
+    "在办事项": "标准合成场景｜教务交接清单的在办事项：已按合成业务口径准备"
+  },
+  "data_status": "confirmed",
+  "conflicts": [],
+  "contains_sensitive_data": false
+}
